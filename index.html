@@ -17,11 +17,21 @@
 </head>
 
 <body>
-    <header>
-        <h1>Log in page</h1>
+    <header class="py-4 container mx-auto">
+        <h1 class="text-5xl text-center">Bank Login Page</h1>
     </header>
-    <main>
-
+    <main class="container mx-auto flex justify-center items-center h-80">
+        <div id="loginFrom" class="bg-cyan-500 w-[480px] mx-auto p-8 text-white rounded-lg">
+            <h2 class="text-4xl font-bold">Please login</h2>
+            <div id="inputFields" class="space-y-4 mt-4">
+                <input type="email" name="email" id="email" placeholder="Enter your email"
+                    class="px-4 py-2 rounded-md placeholder:capitalize text-slate-600 w-full focus:outline-none">
+                <br>
+                <input type="password" name="password" id="password" placeholder="Enter your password"
+                    class="px-4 py-2 rounded-md placeholder:capitalize text-slate-600 w-full focus:outline-none">
+                <button type="submit" class="bg-teal-700 px-6 py-3 rounded-lg hover:bg-teal-900">Submit</button>
+            </div>
+        </div>
     </main>
     <footer>
 
